@@ -1,0 +1,180 @@
+@font-face { 
+	font-family: "TerminusTTF";
+	src: url("fonts/TerminusTTF-4.49.1.ttf") format("truetype")
+   }
+
+@font-face {
+	font-family: "TerminusTTF-Bold";
+	src: url("fonts/TerminusTTF-Bold-4.49.1.ttf") format("truetype")
+   }
+
+@font-face {
+	font-family: "TerminusTTF-Italic";
+	src: url("fonts/TerminusTTF-Italic-4.49.1.ttf") format("truetype")
+   }
+
+@font-face {
+	font-family: "NokiaFC";
+	src: url("fonts/nokiafc22.ttf") format("truetype")
+   }
+
+ body, html {
+	 margin: 0;
+	 padding: 0;
+ }
+
+ p {
+         font-family: TerminusTTF, TerminusTTF;
+         font-size: 100%;
+	 color: white;
+ }
+
+ h1 {
+         font-family: 'TerminusTFF-Bold', TerminusTTF-Bold;
+         color: white;
+         font-size: 130%;
+         font-weight: bold;
+ }
+
+ h2 {
+         font-family: 'TerminusTFF-Italic', TerminusTTF-Italic;
+         color: white;
+         font-size: 130%;
+ }
+
+ a p, a:link, a:visited {
+	 color: lime;
+	 text-decoration: none;
+ }
+
+ a:hover p, a:hover span{
+	 color: orange;
+	 text-decoration: underline;
+ }
+
+ img {
+	 display: flex;
+ }
+
+ .headercontainer {
+	 display: flex;
+         width: 1000px;
+         height: 150px;
+         margin: auto;
+         outline: solid black 1px;
+ }
+
+ .logocontainer {
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+         width: 1000px;
+         height: 150px;
+ }
+
+ .button:hover {
+	 box-shadow: 0 0 5px white;
+	 filter: brightness(125%);
+ }
+    
+ .button:active {
+	 box-shadow: 0 0 10px white;
+	 filter: brightness(155%);
+ }
+
+ .leftmenu {
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: top;
+	 margin-right: auto;
+	 height: auto;
+	 width: 150px;
+	 background-image: url('images/sidemenus/sidemenusgreenbg.png');
+ }
+
+ .rightmenu {
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: top;
+	 margin-left: auto;
+	 height: auto;
+	 width: 150px;
+	 background-image: url('images/sidemenus/sidemenusgreenbg.png');
+ }
+
+ .navigationbar {
+	 display: flex;
+	 background-image: url('images/sidemenus/navigationbargreen.png');
+	 background-repeat: no-repeat;
+	 width: 150px;
+	 height: 15px;
+ }
+
+ .navbarcontainer {
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: top;
+	 width: 150px;
+	 height: auto;
+	 margin-top: 10px;
+ }
+
+ .affiliatesbar {
+	 display: flex;
+	 background-image: url('images/sidemenus/affiliatesbargreen.png');
+	 background-repeat: no-repeat;
+	 width: 150px;
+	 height: 15px;
+ }
+
+ .affbarcontainer {
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: top;
+	 width: 150px;
+	 height: auto;
+	 margin-top: 20px;
+ }
+
+ .socialsbar {
+	 display: flex;
+	 background-image: url('images/sidemenus/socialsbargreen.png');
+	 background-repeat: no-repeat;
+	 width: 150px;
+	 height: 15px;
+ }
+
+ .socialsbarcontainer {
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: top;
+	 width: 150px;
+	 height: auto;
+	 margin-top: 20px;
+ }
+
+ .handlebarside {
+	 background-image: url('images/sidemenus/handlebarsidegreen.png');
+	 background-repeat: no-repeat;
+	 width: 150px;
+	 height: 15px;
+ }
+
+ .adscontainer {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	width:125px;
+	height: auto;
+ }
+
+ .logo:hover {
+	filter: brightness(125%);
+ }
+
+ .logo:active {
+	filter: brightness(150%);
+ }

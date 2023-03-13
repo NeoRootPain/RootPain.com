@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ body {
+	 background-image: url("images/backgrounds/guestbookbackground.png");
+	 background-size: auto;
+	 background-position: top;
+	 background-repeat: no-repeat;
+	 background-color: black;
+ }
+
+ .mainbody {
+	 display: flex;
+	 background-color: rgba(0, 0, 0, 0.7);
+	 margin: auto;
+	 width: 1002px;
+	 height: auto;
+ }
+
+ .handlebar {
+	 display: flex;
+	 height: 9px;
+	 background-image: url('images/handlebar.png');
+	 background-repeat: repeat-x;
+ }
+
+ .contentwrapper {
+	 display: flex;
+	 justify-content: top;
+	 align-items: center;
+	 flex-direction: column;
+	 gap: 10px;
+	 width: 702px;
+	 height: auto;
+ }
+
+ .GuestbookHeader {
+	 display: flex;
+	 width: 702px;
+	 height: 108px;
+	 background-image: url('guestbook/images/guestbookheader.png');
+ }
+
+ .MessagesContainer {
+	 display: flex;
+	 width: 702px;
+	 flex-flow: row wrap;
+	 justify-content: center;
+	 gap: 25px;
+ }
+
+ .ArtContainer {
+	 display: flex;
+	 width: 300px;
+	 height: 300px;
+	 outline: solid black 1px;
+ }
+
+ .ArtContainer:hover {
+	 outline: solid white 1px;
+	 box-shadow: 0 0 5px white;
+ }
+
+ .ArtContainer:active {
+	 outline: solid white 2px;
+	 box-shadow: 0 0 10px white;
+ }
+
+ .MessageContainer {
+	 display: none;
+	 box-shadow: 0 0 5px white;
+ }
+  
+ .ArtContainer:hover .MessageContainer {
+	 display: flex;
+	 position: absolute;
+ }
+
+ .PFP {
+	 display: flex;
+	 width: 100px;
+	 height: 100px;
+	 position: relative; top: 6px; left: 5px;
+ }
+
+ .TextBoxHead {
+	 display: flex;
+	 align-self: center;
+	 align-items: center;
+	 flex-direction: column;
+	 background-image: url('images/textboxhead.png');
+	 background-repeat: no-repeat;
+	 width: 527px;
+	 height: auto;
+ }
+
+ .TextBoxBody {
+	 display: flex;
+	 flex-direction: column;
+	 background-color: #232323;
+	 width: 525px;
+	 outline: solid black 1px;
+	 margin-top: -58px;
+ }
+
+ .TextBoxBottom {
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 flex-direction: row;
+	 gap: 396px;
+	 background-image: url('images/textboxbottom.png');
+	 background-repeat: repeat-x;
+	 width: 525px;
+	 height: 23px;
+ }
+</style>
+<meta property="og:title" content="RootPain.com: Guestbook" />
+<meta property="og:image" content="images/logo.png" />
+<meta property="og:description" content="Leave your mark and learn a little bit more about other people like you that visited this website aswell." />
+<title>RootPain.com: Guestbook</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+<div class="headercontainer" style="background-image:url('images/backgrounds/guestbookheader.png');">
+	<div id="logocontainer" class="logocontainer"></div>
+</div>
+
+<div class="mainbody">
+<div id="leftmenu" class="leftmenu" style="background-image:url('images/sidemenus/sidemenusbluebg.png');"></div>
+
+	<div class="contentwrapper">
+		<audio hidden autoplay loop>
+			<source src="guestbook/guestbookbgmusic.wav" type="audio/wav"></audio>
+
+		<div style="display:flex;height:auto;width:702px;flex-direction:column;">
+		<div class="GuestbookHeader"></div>
+		<div class="handlebar"></div>
+		</div>
+
+		<div style="margin-top:-40px;height:252px;">
+			<p style="text-align:center;font-size:200%;">How To Leave Your Message</p>
+			<p style="text-align:center;margin-top:-30px;">Send a message to my email ( NeoJuneSSai@420blaze.it )<br>
+			with the subject "Guestbook Message"<br>
+			<br>
+			Attach an image you want to display on the Guestbook and leave your message<br>
+			alongside a name and a slogan/catchphrase that will be displayed at the<br>
+			end of your message, you can also attach a profile picture that will be<br>
+			displayed alongside your message whenever someone hovers over your image<br>
+			If possible, send both the art and Profile Picture images via an Imgur link<br>
+			<br>
+			Alternatively, you can also join my Discord server and leave your message<br>
+			through there aswell.</p>
+		</div>
+		<div style="display:flex;flex-direction:column;width:702px;gap:10px;">
+			<div class="handlebar" style="margin-bottom:auto;"></div>
+		<div class="MessagesContainer">
+			<div class="ArtContainer">
+				<div class="MessageContainer" style="position:absolute;right:100px;top:245px;">
+<div class="TextBoxHead">
+				<p style="font-family:NokiaFC;font-size:80%;position:relative;bottom:12px;left:156px;">03/13/2023</p>
+				<p style="font-family:NokiaFC;position:relative;bottom:42px;">Hey, nice seeing you.</p>
+				<div class="TextBoxBody">
+					<div class="PFP">
+						<img src="guestbook/images/PFPs/JuneSSaiPFP.png"></div>
+					<p style="font-family:NokiaFC;font-size:65%;text-align:left;margin-top:-92px;margin-left:110px;width:400px;">This site is the culmination of all of my hard work and<br>
+					passion that I've cultivated through my whole life.<br>
+					It took me a while to get there, but I think it was<br>
+					all worth it based on the final results.<br>
+					<br>
+					So, what's in for the future now, both for me and for the<br>
+					website since I'm finally done remaking everything?</p>
+					<p style="position:relative;bottom:16px;left:6px;font-family:NokiaFC;font-size:65%;text-align:left;">
+					I'll keep on grinding and adding more content, I'll also try my best to bring<br>
+					back a lot of the old content that was left in the old website, and bring it<br>
+					back in a better, more refined way than I initially did, and in general, I'll<br>
+					keep improving my skills and keep moving forward, I'll try to keep showing my<br>
+					love and my passion for all of the things I love, for my friends, and for my<br>
+					fucked up life, I'll keep trying, and that's all I can promise<br>
+					<br>
+					This website is the culmination of everything I am<br>
+					My passions, my love, my hate, my spites, but most importantly, my appreciation<br>
+					for an era that I used to live and love so dearly, that is now long gone<br>
+					and far behind me<br>
+					But this site isn't just nostalgia, I want this to be an evolution of all of<br>
+					the things I loved back in the day, and I want everyone that stumbles upon<br>
+					my website to feel those same joys and wonder I felt whenever I was<br>
+					scrolling through the internet and those sites as I did back in the day<br>
+					and make so people always come back from time to time, and keep saying to<br>
+					themselves; "I want more."<br>
+					If I can make an long-lasting impact and inspire people to pursue to create<br>
+					their own things because they're passionate about it and they were inspired<br>
+					by the things that I've created, then everything I worked for was<br>
+					more than worth it, so I hope I can achieve that with this website<br>
+					I hope you enjoy your time in here just as much as I enjoyed making it<br>
+					I hope you're having a nice day, and I'll see you around, partner.</p>
+					<div style="position:relative;bottom:24px;right:6px;height:20px;">
+						<p style="font-family:NokiaFC;font-size:65%;text-align:right;text-decoration:underline;">Undefeatable</p>
+						<p style="font-family:NokiaFC;font-size:65%;text-align:right;margin-top:-12px;">June S. Sai</p>
+					</div>
+				<div class="TextBoxBottom">
+				<p style="font-family:NokiaFC;">Options</p> <p style="font-family:NokiaFC;">Back</p>
+				</div>
+				</div>
+</div>
+				</div>
+				<img src="guestbook/images/art/JuneSSai.png"></div>
+		</div>
+
+			<div class="handlebar" style="margin-top:auto;"></div>
+		</div>
+	</div>
+	<div class="rightmenu" style="background-image:url('images/sidemenus/sidemenusbluebg.png');">
+		<div style="align-self:center;height:34px;width:125px;margin-top:10px;">
+			<p style="text-align:center;margin-top:0px;">Last Update:<br>
+			March 13, 2023</p></div>
+		<a href="donate/donate.html">
+			<div id="adscontainer" class="adscontainer"></div></a>
+	</div>
+
+</div>
+
+<script src="js/logoblue.js"></script>
+<script src="js/menublue.js"></script>
+<script src="js/ads.js"></script>
+
+</body>
+</html>
+
+<!--I hope you enjoyed your stay.-->
