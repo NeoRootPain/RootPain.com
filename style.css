@@ -49,6 +49,10 @@
 
  a:hover p, a:hover span{
 	 color: orange;
+ }
+
+ a:active p, a:active span {
+	 color: orange;
 	 text-decoration: underline;
  }
 

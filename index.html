@@ -89,7 +89,8 @@
 	 background-image: url('images/textboxbottom.png');
 	 background-repeat: repeat-x;
 	 width: 525px;
-	 height: 23px;
+	 height: 21px;
+	 outline: solid black 1px;
  }
 
  .FixedContainer {
@@ -113,6 +114,25 @@
  }
 
  .WeeklyMessage:active {
+	 filter: brightness(150%);
+ }
+
+ .Art {
+	 align-self: center;
+	 outline: solid black 1px;
+	 margin-top: 10px;
+	 margin-bottom: 10px;
+ }
+
+ .Art:hover {
+	 box-shadow: 0 0 5px white;
+	 outline: solid white 1px;
+	 filter: brightness(125%);
+ }
+ 
+ .Art:active {
+	 box-shadow: 0 0 10px white;
+	 outline: solid white 2px;
 	 filter: brightness(150%);
  }
 </style>
@@ -222,12 +242,12 @@
 					</div>
 					<div style="align-self:center;">
 						<a href="images/PostImage01.png" target="_blank">
-						<img src="images/PostImage01.png" width=300 height=300 style="outline: solid black 1px;">
+						<img src="images/PostImage01.png" width=300 height=300 class="Art">
 						<p style="font-family:NokiaFC;font-size:50%;text-align:right;">meandmybabe.png 272.223kb</div></a>
+				</div>
 				<div class="TextBoxBottom">
 				<p style="font-family:NokiaFC;">Options</p> <p style="font-family:NokiaFC;">Back</p>
 				</div>
-			</div>
 		</div>
 		<div class="handlebar" style="margin-top:auto;"></div>
 		</div>
@@ -235,11 +255,11 @@
 	<div class="rightmenu">
 		<div style="align-self:center;height:34px;width:125px;margin-top:10px;margin-bottom:20px;">
 			<p style="text-align:center;margin-top:0px;">Last Update:<br>
-			March 13, 2023</p></div>
+			March 16, 2023</p></div>
 			<div style="align-self:center;height:50px;width:125px;">
 				<p style="text-align:center;margin-top:0px;">Last Sections<br>
 				Updated:<br>
-				All Of 'Em</p></div>
+				<a href="guestbook.html"><span>Guestbook</a></span></p></div>
 		<a href="donate/donate.html">
 			<div id="adscontainer" class="adscontainer"></div></a>
 	</div>
