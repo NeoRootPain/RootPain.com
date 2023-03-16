@@ -36,7 +36,7 @@ let LeftMenuContent = `
 			<img src="images/buttons/qmaurybutton.png" class="button" style="margin-top:-1px;"></a>
 		<a href="https://www.storkinspork.ga/">
 			<img src="images/buttons/storkinsporkbutton.png" class="button" style="margin-top:-1px;"></a>
-		<a href="links/links.html">
+		<a href="links.html">
 			<img src="images/buttons/morebutton.png" class="button" style="margin-top:-1px;"></a>
 		<div class="handlebarside" style="background-image:url('images/sidemenus/handlebarsidered.png');"></div>
 		</div>
