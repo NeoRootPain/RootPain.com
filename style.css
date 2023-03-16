@@ -9,11 +9,6 @@
    }
 
 @font-face {
-	font-family: "TerminusTTF-Italic";
-	src: url("fonts/TerminusTTF-Italic-4.49.1.ttf") format("truetype")
-   }
-
-@font-face {
 	font-family: "NokiaFC";
 	src: url("fonts/nokiafc22.ttf") format("truetype")
    }
@@ -32,14 +27,15 @@
  h1 {
          font-family: 'TerminusTFF-Bold', TerminusTTF-Bold;
          color: white;
-         font-size: 130%;
+         font-size: 200%;
          font-weight: bold;
  }
 
  h2 {
-         font-family: 'TerminusTFF-Italic', TerminusTTF-Italic;
+         font-family: 'TerminusTFF-Bold', TerminusTTF-Bold;
          color: white;
-         font-size: 130%;
+         font-size: 200%;
+	 font-weight: bold;
  }
 
  a p, a:link, a:visited {
