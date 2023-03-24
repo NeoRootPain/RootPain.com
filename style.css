@@ -13,6 +13,11 @@
 	src: url("fonts/nokiafc22.ttf") format("truetype")
    }
 
+@font-face {
+	font-family: "Andes";
+	src: url("fonts/Andes.ttf") format("truetype")
+   }
+
  body, html {
 	 margin: 0;
 	 padding: 0;
@@ -32,10 +37,11 @@
  }
 
  h2 {
-         font-family: 'TerminusTFF-Bold', TerminusTTF-Bold;
+         font-family: 'Andes', Andes;
          color: white;
-         font-size: 200%;
-	 font-weight: bold;
+         font-size: 300%;
+	 font-weight: normal;
+	 text-decoration: underline;
  }
 
  a p, a:link, a:visited {
