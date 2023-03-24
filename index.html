@@ -93,30 +93,6 @@
 	 outline: solid black 1px;
  }
 
- .FixedContainer {
-	 display: none;
-	 justify-content: center;
-	 align-content: center;
-	 position: fixed; left: 14px; top: 8px;
-	 width: auto;
-	 height: auto;
- }
-
- .WeeklyMessage {
-	 display: flex;
-	 background-image: url('images/weeklymessage.png');
-	 width: 149px;
-	 height: 91px;
- }
-
- .WeeklyMessage:hover {
-	 filter: brightness(125%);
- }
-
- .WeeklyMessage:active {
-	 filter: brightness(150%);
- }
-
  .Art {
 	 align-self: center;
 	 outline: solid black 1px;
@@ -159,6 +135,59 @@
 		<div style="display:flex;flex-direction:column;height:auto;">
 			<div class="IntroductionHeader"></div>
 			<div class="handlebar"></div>
+		</div>
+
+		<div style="display:flex;flex-direction:column;height:auto;">
+		<div class="handlebar"></div>
+		<div style="width:702px;height:41px;background-image:url('images/weeklymessagebanner.png');"></div>
+		<div class="handlebar"></div>
+
+		<div style="display:flex;flex-direction:column;width:702px;height:auto;gap:10px;">
+		<div style="display:flex;width:702px;height:auto;align-items:center;">
+		<img src="images/weeklywhiskey.png" width=130 height=159 style="position:relative;left:20px;top:10px;margin-top:auto;">
+	
+		<div style="display:flex;flex-direction:column;width:527px;position:relative;bottom:3px;left:28px;">
+
+		<div style="display:flex;flex-direction:column;width:527px;height:auto;">
+		<img src="images/speechbubblepointerdown.png" width=16 height=16 style="position:relative;left:14px;top:214px;z-index:1;">
+			<div style="display:flex;flex-direction:column;background-color:white;width:490px;height:auto;outline:solid black 1px;position:relative;left:30px;">
+				<p style="color:black;position:relative;bottom:12px;left:4px;margin-bottom:-7px;">Do you remember when these were dailies?<br>
+				Yeah, me neither.<br>
+				<br>
+				Anyways, if you have unsolved business, you should probably<br>
+				go ahead and try and solve it head on while you still can<br>
+				I spend a lot of my days and time thinking about what<br>
+				I could have done and what it could have been<br>
+				<br>
+				don't let it be the same for you.<br>
+				<br>
+				It's better to be sad over results, instead of regretting<br>
+				over uncertainty.</p>
+			</div>
+		</div>
+
+		<div style="display:flex;flex-direction:column;width:527px;height:auto;">
+		<img src="images/speechbubblepointerup.png" width=16 height=16 style="position:relative;left:14px;top:88px;z-index:1;">
+			<div style="display:flex;flex-direction:column;background-color:white;width:490px;height:auto;outline:solid black 1px;position:relative;left:30px;">
+				<p style="color:black;position:relative;bottom:12px;left:4px;">Oh, and here's your weekly song recommendation.</p>
+				<img src="images/musiccover.png" width=100 height=100 style="outline:solid black 1px;margin-left:6px;margin-top:-10px;">
+				<div style="display:flex;flex-direction:column;position:relative;left:112px;bottom:118px;height:8px;">
+				<p style="color:black;">Snowfall<br>
+				øneheart x reidenshi</p>
+				<div style="display:flex;gap:20px;position:relative;left:24px;top:2px;">
+					<a href="https://www.youtube.com/watch?v=LlN8MPS7KQs" target="_blank">
+						<img src="images/buttons/youtubebutton.png" width=150 height=25 class="button"></a>
+					<a href="https://open.spotify.com/track/4xF4ZBGPZKxECeDFrqSAG4?si=5b410133e5a84eed" target="_blank">
+						<img src="images/buttons/spotifybutton.png" width=150 height=25 class="button"></a>
+				</div>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		</div>
+		<div class="handlebar"></div>
+		</div>
 		</div>
 
 		<div style="display:flex;flex-direction:column;height:auto;">
@@ -278,7 +307,7 @@
 			<div style="align-self:center;height:50px;width:125px;">
 				<p style="text-align:center;margin-top:0px;">Last Sections<br>
 				Updated:<br>
-				<a href="about.html"><span>About</span></a></p></div>
+				Home</div>
 		<a href="donate/donate.html">
 			<div id="adscontainer" class="adscontainer"></div></a>
 	</div>
