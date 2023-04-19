@@ -5,6 +5,8 @@ let LeftMenuContent = `
 			<img src="images/buttons/navbarhomebutton.png" class="button"></a>
 		<a href="blogmain.html">
 			<img src="images/buttons/navbarblogbutton.png" class="button" style="margin-top:-1px;"></a>
+		<a href="downloadsmain.html">
+			<img src="images/buttons/navbardownloadsbutton.png" class="button" style="margin-top:-1px;"></a>
 		<a href="artmain.html">
 			<img src="images/buttons/navbarartbutton.png" class="button" style="margin-top:-1px;"></a>
 		<a href="fanartmain.html">

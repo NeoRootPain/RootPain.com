@@ -1,6 +1,6 @@
 let LeftMenuContent = `
 		<div class="navbarcontainer">
-		<div class="navigationbar" style="background-image:url('../../../images/sidemenus/navigationbarpink.png');"></div>
+		<div class="navigationbar" style="background-image:url('../../../images/sidemenus/navigationbarred.png');"></div>
 		<a href="../../../index.html">
 			<img src="../../../images/buttons/navbarhomebutton.png" class="button"></a>
 		<a href="../../../blogmain.html">
@@ -25,11 +25,11 @@ let LeftMenuContent = `
 			<img src="../../../images/buttons/navbaroldsitebutton.png" class="button" style="margin-top:-1px;"></a>
 		<a href="../../../about.html">
 			<img src="../../../images/buttons/navbaraboutbutton.png" class="button" style="margin-top:-1px;"></a>
-		<div class="handlebarside" style="background-image:url('../../../images/sidemenus/handlebarsidepink.png');"></div>
+		<div class="handlebarside" style="background-image:url('../../../images/sidemenus/handlebarsidered.png');"></div>
 		</div>
 
 		<div class="affbarcontainer">
-			<div class="affiliatesbar" style="background-image:url('../../../images/sidemenus/affiliatesbarpink.png');"></div>
+			<div class="affiliatesbar" style="background-image:url('../../../images/sidemenus/affiliatesbarred.png');"></div>
 		<a href="https://gameslime.com/">
 			<img src="../../../images/buttons/gameslimebutton.png" class="button"></a>
 		<a href="https://sagerankov.com/">
@@ -40,16 +40,16 @@ let LeftMenuContent = `
 			<img src="../../../images/buttons/storkinsporkbutton.png" class="button" style="margin-top:-1px;"></a>
 		<a href="../../../links.html">
 			<img src="../../../images/buttons/morebutton.png" class="button" style="margin-top:-1px;"></a>
-		<div class="handlebarside" style="background-image:url('../../../images/sidemenus/handlebarsidepink.png');"></div>
+		<div class="handlebarside" style="background-image:url('../../../images/sidemenus/handlebarsidered.png');"></div>
 		</div>
 
 		<div class="socialsbarcontainer">
-			<div class="socialsbar" style="background-image:url('../../../images/sidemenus/socialsbarpink.png');"></div>
+			<div class="socialsbar" style="background-image:url('../../../images/sidemenus/socialsbarred.png');"></div>
 			<a href="https://junessai.newgrounds.com/">
 				<img src="../../../images/buttons/newgroundsbutton.png" class="button"></a>
 			<a href="https://discord.gg/tYxjnQBpxm" target="_blank">
 				<img src="../../../images/buttons/discordbutton.png" class="button" style="margin-top:-1px;"></a>
-			<div class="handlebarside" style="background-image:url('../../../images/sidemenus/handlebarsidepink.png');"></div>
+			<div class="handlebarside" style="background-image:url('../../../images/sidemenus/handlebarsidered.png');"></div>
 		</div>
 `;
 document.querySelector('#leftmenu').insertAdjacentHTML('beforeend', LeftMenuContent);
