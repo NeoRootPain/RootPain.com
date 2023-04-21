@@ -88,6 +88,38 @@
 	 filter: brightness(155%);
  }
 
+ .downloadbutton {
+	 outline: solid black 1px;
+ }
+
+ .downloadbutton:hover {
+	 box-shadow: 0 0 5px green;
+	 outline: solid green 1px;
+	 filter: brightness(125%);
+ }
+
+ .downloadbutton:active {
+	 box-shadow: 0 0 10px green;
+	 outline: solid green 2px;
+	 filter: brightness(150%);
+ }
+
+ .authorswebsitebutton {
+	 outline: solid black 1px;
+ }
+
+ .authorswebsitebutton:hover {
+	 box-shadow: 0 0 5px yellow;
+	 outline: solid yellow 1px;
+	 filter: brightness(125%);
+ }
+
+ .authorswebsitebutton:active {
+	 box-shadow: 0 0 10px yellow;
+	 outline: solid yellow 2px;
+	 filter: brightness(150%);
+ }
+
  .leftmenu {
 	 display: flex;
 	 flex-direction: column;
