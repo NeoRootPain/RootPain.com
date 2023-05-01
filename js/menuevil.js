@@ -36,7 +36,7 @@ let LeftMenuContent = `
 			<img src="../../../images/buttons/evilbutton.png" class="button"></a>
 		<a href="https://qmaury.com/">
 			<img src="../../../images/buttons/evilbutton.png" class="button" style="margin-top:-1px;"></a>
-		<a href="https://www.storkinspork.ga/">
+		<a href="https://www.storkinspork.com/">
 			<img src="../../../images/buttons/evilbutton.png" class="button" style="margin-top:-1px;"></a>
 		<a href="../../../links.html">
 			<img src="../../../images/buttons/evilbutton.png" class="button" style="margin-top:-1px;"></a>
