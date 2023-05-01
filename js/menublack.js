@@ -30,13 +30,13 @@ let LeftMenuContent = `
 
 		<div class="affbarcontainer">
 			<div class="affiliatesbar" style="background-image:url('images/sidemenus/affiliatesbarblack.png');"></div>
-		<a href="https://gameslime.com/">
+		<a href="https://gameslime.com/" target="_blank">
 			<img src="images/buttons/gameslimebutton.png" class="button"></a>
-		<a href="https://sagerankov.com/">
+		<a href="https://sagerankov.com/" target="_blank">
 			<img src="images/buttons/staggernightbutton.png" class="button"></a>
-		<a href="https://qmaury.com/">
+		<a href="https://qmaury.com/" target="_blank">
 			<img src="images/buttons/qmaurybutton.png" class="button" style="margin-top:-1px;"></a>
-		<a href="https://www.storkinspork.com/">
+		<a href="https://www.storkinspork.com/" target="_blank">
 			<img src="images/buttons/storkinsporkbutton.png" class="button" style="margin-top:-1px;"></a>
 		<a href="links.html">
 			<img src="images/buttons/morebutton.png" class="button" style="margin-top:-1px;"></a>
