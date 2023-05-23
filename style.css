@@ -77,7 +77,11 @@
          width: 1000px;
          height: 150px;
  }
-
+ 
+ .button {
+	 transition: 0.1s;
+ }
+ 
  .button:hover {
 	 box-shadow: 0 0 5px white;
 	 filter: brightness(125%);
@@ -86,10 +90,12 @@
  .button:active {
 	 box-shadow: 0 0 10px white;
 	 filter: brightness(155%);
+	 transition: 0.1s;
  }
 
  .downloadbutton {
 	 outline: solid black 1px;
+	 transition: 0.1s;
  }
 
  .downloadbutton:hover {
@@ -102,10 +108,12 @@
 	 box-shadow: 0 0 10px green;
 	 outline: solid green 2px;
 	 filter: brightness(150%);
+	 transition: 0.1s;
  }
 
  .authorswebsitebutton {
 	 outline: solid black 1px;
+	 transition: 0.1s;
  }
 
  .authorswebsitebutton:hover {
@@ -118,6 +126,20 @@
 	 box-shadow: 0 0 10px yellow;
 	 outline: solid yellow 2px;
 	 filter: brightness(150%);
+	 transition: 0.1s;
+ }
+
+ .logo {
+	transition: 0.1s;
+ }
+ 
+ .logo:hover {
+	filter: brightness(125%);
+ }
+
+ .logo:active {
+	filter: brightness(150%);
+	transition: 0.1s;
  }
 
  .leftmenu {
@@ -209,12 +231,4 @@
 	margin-right: auto;
 	width:125px;
 	height: auto;
- }
-
- .logo:hover {
-	filter: brightness(125%);
- }
-
- .logo:active {
-	filter: brightness(150%);
  }

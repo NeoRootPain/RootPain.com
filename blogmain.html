@@ -18,6 +18,13 @@
 	 height: auto;
  }
 
+ .handlebar {
+	 display: flex;
+	 height: 9px;
+	 background-image: url('images/handlebar.png');
+	 background-repeat: repeat-x;
+ }
+
  .contentwrapper {
 	 display: flex;
 	 justify-content: top;
@@ -28,31 +35,24 @@
 	 height: auto;
  }
 
- .handlebar {
-	 display: flex;
-	 height: 9px;
-	 background-image: url('images/handlebar.png');
-	 background-repeat: repeat-x;
- }
-
- .PostContainer {
+ .blogheader {
 	 display: flex;
 	 flex-direction: column;
-	 align-content: center;
 	 width: 702px;
-	 height: auto;
-	 gap: 10px;
+	 height: 81px;
+	 background-image: url('blog/images/blogheader.png');
+	 background-repeat: no-repeat;
  }
 </style>
 <meta property="og:title" content="RootPain.com: Blog" />
-<meta property="og:image" content="https://github.com/JuneSSai/RootPain.com/blob/main/images/logos/logoblue.png?raw=true" />
-<meta property="og:description" content="This is the type of shit you read if you want to rot your brain... Sounds good to me!" />
+<meta property="og:image" content="https://github.com/JuneSSai/RootPain.com/blob/main/images/logos/logodarkblue.png?raw=true" />
+<meta property="og:description" content="Soon." />
 <title>RootPain.com: Blog</title>
 <link rel="stylesheet" href="style.css">
 <link rel="icon" type="image/png" href="images/favicon.png">
 
-<script async src="js/logoblue.js"></script>
-<script async src="js/menublue.js"></script>
+<script async src="js/logodarkblue.js"></script>
+<script async src="js/menudarkblue.js"></script>
 <script async src="js/ads.js"></script>
 </head>
 <body>
@@ -61,19 +61,29 @@
 </div>
 
 <div class="mainbody">
-<div id="leftmenu" class="leftmenu" style="background-image:url('images/sidemenus/sidemenusbluebg.png"></div>
+<div id="leftmenu" class="leftmenu" style="background-image:url('images/sidemenus/sidemenusdarkbluebg.png');"></div>
 
 	<div class="contentwrapper">
 
-	<div><p style="text-align:center;font-size:500%;font-weight:bold;">SORRY NOTHING<br>
-		<span style="text-align:center;font-size:60%;font-weight:normal;position:relative;bottom:10px;">At least for now.</span><br>
-		<span style="text-align:center;font-size:20%;font-weight:normal;position:relative;bottom:40px;">So come back in 10 years.</span></p></div>
+		<div style="display:flex;flex-direction:column;width:702px;height:auto;">
+			<div class="handlebar"></div>
+			<div class="blogheader"></div>
+			<div class="handlebar"></div>
+		</div>
+
+		<div style="display:flex;height:auto;width:702px;flex-direction:column;">
+		<div style="display:flex;height:auto;width:636px;gap:36px;flex-flow:row wrap;align-self:center;margin-bottom:10px;">
+			<p style="margin:auto;font-size:600%;">SOON.</p>
+		</div>
+			<div class="handlebar" style="margin-top:auto;"></div>
+		</div>
 
 	</div>
-	<div class="rightmenu" style="background-image:url('images/sidemenus/sidemenusbluebg.png">
+
+	<div class="rightmenu" style="background-image:url('images/sidemenus/sidemenusdarkbluebg.png');">
 		<div style="align-self:center;height:34px;width:125px;margin-top:10px;">
 			<p style="text-align:center;margin-top:0px;">Last Update:<br>
-			March 10, 2023</p></div>
+			May 23, 2023</p></div>
 		<a href="donate/donate.html">
 			<div id="adscontainer" class="adscontainer"></div></a>
 	</div>
@@ -82,4 +92,4 @@
 </body>
 </html>
 
-<!--Did you know that these used to be everywhere in the first website?-->
+<!--What's the last time you said "I love you" and meant it?-->
