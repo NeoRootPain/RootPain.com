@@ -18,6 +18,13 @@
 	 height: auto;
  }
 
+ .handlebar {
+	 display: flex;
+	 height: 9px;
+	 background-image: url('images/handlebar.png');
+	 background-repeat: repeat-x;
+ }
+
  .contentwrapper {
 	 display: flex;
 	 justify-content: top;
@@ -28,30 +35,49 @@
 	 height: auto;
  }
 
- .handlebar {
+
+ .ThumbsContainer {
 	 display: flex;
-	 height: 9px;
-	 background-image: url('images/handlebar.png');
-	 background-repeat: repeat-x;
+	 flex-flow: row wrap;
+	 justify-content: center;
+	 align-items: center;
+	 width: 702px;
+	 gap: 10px;
  }
 
- .PostContainer {
+ .ThumbsCenterContainer {
 	 display: flex;
-	 flex-direction: column;
-	 align-content: center;
+	 flex-flow: row wrap;
+	 width: 636px;
+	 gap: 12px;
+	 margin-top: 10px;
+	 margin-bottom: 10px;
+ }
+
+ .ArtThumb {
+	 display: flex;
+	 width: 150px;
+	 height: 150px;
+	 outline: solid black 1px;
+	 text-align: center;
+ }
+
+ .ArtCornerHeader {
+	 display: flex;
 	 width: 702px;
-	 height: auto;
-	 gap: 10px;
+	 height: 64px;
+	 background-image: url('art/images/artcornerheader.png');
+	 background-repeat: no-repeat;
  }
 </style>
 <meta property="og:title" content="RootPain.com: Art" />
-<meta property="og:image" content="https://github.com/JuneSSai/RootPain.com/blob/main/images/logos/logoyellow.png?raw=true" />
-<meta property="og:description" content="You will see my art in here, if I ever make any sort of art again lmaooooo" />
+<meta property="og:image" content="https://github.com/JuneSSai/RootPain.com/blob/main/images/logos/logopapersheet.png?raw=true" />
+<meta property="og:description" content="The art from the man himself." />
 <title>RootPain.com: Art</title>
 <link rel="stylesheet" href="style.css">
 <link rel="icon" type="image/png" href="images/favicon.png">
 
-<script async src="js/logoyellow.js"></script>
+<script async src="js/logopapersheet.js"></script>
 <script async src="js/menuyellow.js"></script>
 <script async src="js/ads.js"></script>
 </head>
@@ -65,15 +91,28 @@
 
 	<div class="contentwrapper">
 
-	<div><p style="text-align:center;font-size:500%;font-weight:bold;">SORRY NOTHING</p>
-		<p style="text-align:center;font-size:200%;font-weight:normal;position:relative;bottom:80px;">And this one will probably stay empty<br>
-		for a while considering I barely<br>
-		do art anymore, sorry lmaooooooo</p></div>
+		<div style="display:flex;width:702px;height:auto;flex-direction:column;">
+		<div class="handlebar"></div>
+		<div class="ArtCornerHeader"></div>
+		<div class="handlebar"></div>
+
+		<div style="display:flex;flex-flow:column wrap;">
+		<div class="ThumbsContainer">
+			<div class="ThumbsCenterContainer">
+			<a href="art/pages/TheGangIsAllHere.html">
+				<div class="ArtThumb"><img src="art/images/thumbs/TheGangIsAllHereThumb.png" class="button"></div></a>
+			</div>
+		</div>
+		<div class="handlebar"></div>
+		</div>
+		</div>
+
+
 	</div>
 	<div class="rightmenu" style="background-image:url('images/sidemenus/sidemenusyellowbg.png">
 		<div style="align-self:center;height:34px;width:125px;margin-top:10px;">
 			<p style="text-align:center;margin-top:0px;">Last Update:<br>
-			March 10, 2023</p></div>
+			June 23, 2023</p></div>
 		<a href="donate/donate.html">
 			<div id="adscontainer" class="adscontainer"></div></a>
 	</div>
@@ -82,4 +121,4 @@
 </body>
 </html>
 
-<!--Feeling blue? No, I'm feeling fucking white as shit because of all of this empty space-->
+<!--The deadest of sections-->
