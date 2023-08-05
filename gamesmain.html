@@ -3,7 +3,7 @@
 <head>
 <style>
  body {
-	 background-image: url("images/backgrounds/downloadsmainbackground.png");
+	 background-image: url("images/backgrounds/gamesmainbackground.png");
 	 background-size: auto;
 	 background-position: top;
 	 background-repeat: no-repeat;
@@ -35,19 +35,37 @@
 	 height: auto;
  }
 
- .downloadsheader {
+ .gamesheader {
 	 display: flex;
 	 flex-direction: column;
 	 width: 702px;
-	 height: 135px;
-	 background-image: url('downloads/images/downloadsheader.png');
+	 height: 83px;
+	 background-image: url('downloads/images/gamesheader.png');
 	 background-repeat: no-repeat;
  }
+
+ .lf2button {
+	 outline: solid white 1px;
+	 transition: 0.1s;
+ }
+
+ .lf2button:hover {
+	 filter:brightness(125%);
+	 box-shadow: 0 0 5px MidnightBlue;
+	 outline: solid white 1px;
+ }
+
+ .lf2button:active {
+	 filter:brightness(150%);
+	 box-shadow: 0 0 10px MidnightBlue;
+	 outline: solid white 1px;
+	 transition: 0.1s;
+ }
 </style>
-<meta property="og:title" content="RootPain.com: Downloads" />
+<meta property="og:title" content="RootPain.com: Games" />
 <meta property="og:image" content="https://github.com/JuneSSai/RootPain.com/blob/main/images/logos/logoblue.png?raw=true" />
-<meta property="og:description" content="From games, to fonts and DooM wads, we have everything in here!" />
-<title>RootPain.com: Downloads</title>
+<meta property="og:description" content="I used to play these as a kid all the time!" />
+<title>RootPain.com: Games</title>
 <link rel="stylesheet" href="style.css">
 <link rel="icon" type="image/png" href="images/favicon.png">
 
@@ -56,7 +74,7 @@
 <script async src="js/ads.js"></script>
 </head>
 <body>
-<div class="headercontainer" style="background-image:url('images/backgrounds/downloadsmainheader.png');">
+<div class="headercontainer" style="background-image:url('images/backgrounds/gamesmainheader.png');">
 	<div id="logocontainer" class="logocontainer"></div>
 </div>
 
@@ -67,17 +85,16 @@
 
 		<div style="display:flex;flex-direction:column;width:702px;height:auto;">
 			<div class="handlebar"></div>
-			<div class="downloadsheader"></div>
+			<div class="gamesheader"></div>
 			<div class="handlebar"></div>
 		</div>
 
 		<div style="display:flex;height:auto;width:702px;flex-direction:column;">
 		<div style="display:flex;height:auto;width:636px;gap:36px;flex-flow:row wrap;align-self:center;margin-bottom:10px;">
-			<a href="gamesmain.html"><div style="display:flex;width:300px;height:50px;">
-					<img src="downloads/images/gamesbanner.png" class="button" style="outline: solid black 1px;"></div></a>
 
-			<a href="doomwadsmain.html"><div style="display:flex;width:300px;height:50px;">
-					<img src="downloads/images/doomwadsbanner.png" class="button" style="outline: solid black 1px;"></div></a>
+			<a href="downloads/pages/games/littlefighter2.html"><div style="display:flex;width:300px;height:50px;">
+					<img src="downloads/images/buttons/littlefighter2button.png" class="lf2button"></div></a>
+
 		</div>
 			<div class="handlebar" style="margin-top:auto;"></div>
 		</div>
@@ -96,4 +113,4 @@
 </body>
 </html>
 
-<!--Don't cry, follow my lead and I'll show you the way to absolution.-->
+<!--I keep forgetting to update these... I wonder if anyone sees them.-->
