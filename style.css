@@ -79,12 +79,15 @@
  }
  
  .button {
+	 outline: solid black 1px;
+	 margin-left:1px;
 	 transition: 0.1s;
  }
  
  .button:hover {
 	 box-shadow: 0 0 5px white;
 	 filter: brightness(125%);
+	 transform: translateY(-2px);
  }
     
  .button:active {
@@ -211,11 +214,9 @@
 	 width: 150px;
 	 height: auto;
 	 margin-top: 20px;
-	 margin-bottom: 10px;
  }
 
  .handlebarside {
-	 background-image: url('images/sidemenus/handlebarsidegreen.png');
 	 background-repeat: no-repeat;
 	 width: 150px;
 	 height: 15px;
