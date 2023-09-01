@@ -93,7 +93,6 @@
  .button:active {
 	 box-shadow: 0 0 10px white;
 	 filter: brightness(155%);
-	 transition: 0.1s;
  }
 
  .downloadbutton {
