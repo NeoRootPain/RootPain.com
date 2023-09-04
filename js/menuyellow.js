@@ -3,16 +3,16 @@ let LeftMenuContent = `
 		<div class="navigationbar" style="background-image:url('https://github.com/JuneSSai/RootPain.com/blob/main/images/sidemenus/navigationbaryellow.png?raw=true');"></div>
 
 		<a href="https://rootpain.com/index.html">
-			<img src="https://github.com/JuneSSai/RootPain.com/blob/main/images/buttons/navbarhomebutton.png?raw=true" class="button" style="margin-top:1px;></a>
+			<img src="https://github.com/JuneSSai/RootPain.com/blob/main/images/buttons/navbarhomebutton.png?raw=true" class="button" style="margin-top:1px;"></a>
 
 		<a href="https://rootpain.com/blogmain.html">
-			<img src="https://github.com/JuneSSai/RootPain.com/blob/main/images/buttons/navbarblogbutton.png?raw=true" class="button" style="margin-top:1px;></a>
+			<img src="https://github.com/JuneSSai/RootPain.com/blob/main/images/buttons/navbarblogbutton.png?raw=true" class="button" style="margin-top:1px;"></a>
 
 		<a href="https://rootpain.com/downloadsmain.html">
-			<img src="https://github.com/JuneSSai/RootPain.com/blob/main/images/buttons/navbardownloadsbutton.png?raw=true" class="button" style="margin-top:1px;></a>
+			<img src="https://github.com/JuneSSai/RootPain.com/blob/main/images/buttons/navbardownloadsbutton.png?raw=true" class="button" style="margin-top:1px;"></a>
 
 		<a href="https://rootpain.com/artmain.html">
-			<img src="https://github.com/JuneSSai/RootPain.com/blob/main/images/buttons/navbarartbutton.png?raw=true" class="button" style="margin-top:1px;></a>
+			<img src="https://github.com/JuneSSai/RootPain.com/blob/main/images/buttons/navbarartbutton.png?raw=true" class="button" style="margin-top:1px;"></a>
 
 		<a href="https://rootpain.com/fanartmain.html">
 			<img src="https://github.com/JuneSSai/RootPain.com/blob/main/images/buttons/navbarfanartbutton.png?raw=true" class="button" style="margin-top:1px;"></a>
