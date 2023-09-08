@@ -85,6 +85,7 @@
  }
  
  .button:hover {
+	 outline: solid white 1px;
 	 box-shadow: 0 0 5px white;
 	 filter: brightness(125%);
 	 transform: translateY(-2px);
