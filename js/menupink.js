@@ -53,6 +53,9 @@ let LeftMenuContent = `
 		<a href="https://www.storkinspork.com/" target="_blank">
 			<img src="https://github.com/JuneSSai/RootPain.com/blob/main/images/buttons/storkinsporkbutton.png?raw=true" class="button" style="margin-top:1px;"></a>
 
+		<a href="https://sgxp.me/" target="_blank">
+			<img src="https://github.com/JuneSSai/RootPain.com/blob/main/images/buttons/sgxpbutton.png?raw=true" class="button" style="margin-top:1px;"></a>
+
 		<a href="links.html">
 			<img src="https://github.com/JuneSSai/RootPain.com/blob/main/images/buttons/morebutton.png?raw=true" class="button" style="margin-top:1px;"></a>
 

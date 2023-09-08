@@ -36,6 +36,8 @@ let LeftMenuContent = `
 			<img src="../../../images/buttons/evilbutton.png" class="button" style="margin-top:1px;"></a>
 		<a href="https://www.storkinspork.com/" target="_blank">
 			<img src="../../../images/buttons/evilbutton.png" class="button" style="margin-top:1px;"></a>
+		<a href="https://sgxp.me/" target="_blank">
+			<img src="../../../images/buttons/evilbutton.png" class="button" style="margin-top:1px;"></a>
 		<a href="../../../links.html">
 			<img src="../../../images/buttons/evilbutton.png" class="button" style="margin-top:1px;"></a>
 		<div class="handlebarside" style="background-image:url('../../../images/sidemenus/handlebarsideblack.png');"></div>
