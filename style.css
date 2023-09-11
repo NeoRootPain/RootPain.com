@@ -111,7 +111,6 @@
  }
     
  .navbarbutton:active {
-	 outline: solid white 1px;
 	 box-shadow: 0 0 10px white;
 	 filter: brightness(155%);
  }
