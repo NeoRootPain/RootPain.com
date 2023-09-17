@@ -253,3 +253,79 @@
 	width:125px;
 	height: auto;
  }
+
+ .PostContainer {
+	 display: flex;
+	 flex-direction: column;
+	 align-content: center;
+	 width: 702px;
+	 height: auto;
+	 gap: 10px;
+ }
+
+ .TextBoxHead {
+	 display: flex;
+	 align-self: center;
+	 align-items: center;
+	 flex-direction: column;
+	 background-image: url('images/textboxhead.png');
+	 background-repeat: no-repeat;
+	 width: 527px;
+	 height: auto;
+ }
+
+ .TextBoxBody {
+	 display: flex;
+	 flex-direction: column;
+	 background-color: #232323;
+	 width: 525px;
+	 outline: solid black 1px;
+	 margin-top: -58px;
+ }
+
+ .TextBoxBottom {
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 flex-direction: row;
+	 gap: 398px;
+	 background-image: url('images/textboxbottom.png');
+	 background-repeat: repeat-x;
+	 width: 525px;
+	 height: 21px;
+	 outline: solid black 1px;
+ }
+
+ .TextBoxHead2 {
+	 display: flex;
+	 align-self: center;
+	 align-items: center;
+	 flex-direction: column;
+	 background-image: url('images/textboxhead2.png');
+	 background-repeat: no-repeat;
+	 width: 666px;
+	 height: auto;
+ }
+
+ .TextBoxBody2 {
+	 display: flex;
+	 flex-direction: column;
+	 background-color: #232323;
+	 width: 664px;
+	 height: auto;
+	 outline: solid black 1px;
+	 margin-top: -57px;
+ }
+
+ .TextBoxBottom2 {
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 flex-direction: row;
+	 gap: 536px;
+	 background-image: url('images/textboxbottom.png');
+	 background-repeat: repeat-x;
+	 width: 664px;
+	 height: 21px;
+	 outline: solid black 1px;
+ }
