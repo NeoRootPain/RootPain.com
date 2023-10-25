@@ -47,8 +47,6 @@ let LeftMenuContent = `
 			<div class="socialsbar" style="background-image:url('../../../images/sidemenus/socialsbarblack.png');"></div>
 			<a href="https://junessai.newgrounds.com/">
 			<img src="../../../images/buttons/evilbutton.png" class="navbarbutton"></a>
-			<a href="https://discord.gg/tYxjnQBpxm" target="_blank">
-			<img src="../../../images/buttons/evilbutton.png" class="navbarbutton"></a>
 			<div class="handlebarside" style="background-image:url('../../../images/sidemenus/handlebarsideblack.png');"></div>
 		</div>
 `;

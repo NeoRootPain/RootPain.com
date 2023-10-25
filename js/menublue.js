@@ -68,9 +68,6 @@ let LeftMenuContent = `
 			<a href="https://junessai.newgrounds.com/">
 				<img src="https://github.com/JuneSSai/RootPain.com/blob/main/images/buttons/newgroundsbutton.png?raw=true" class="navbarbutton"></a>
 
-			<a href="https://discord.gg/tYxjnQBpxm" target="_blank">
-				<img src="https://github.com/JuneSSai/RootPain.com/blob/main/images/buttons/discordbutton.png?raw=true" class="navbarbutton"></a>
-
 			<div class="handlebarside" style="background-image:url('https://github.com/JuneSSai/RootPain.com/blob/main/images/sidemenus/handlebarsideblue.png?raw=true');"></div>
 		</div>
 `;
