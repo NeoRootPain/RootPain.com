@@ -43,15 +43,40 @@
 	 background-image: url('blog/images/blogheader.png');
 	 background-repeat: no-repeat;
  }
+
+  .buttonbox {
+	 display: flex;
+	 width: 216px;
+	 height: 130px;
+	 background-repeat: no-repeat;
+ }
+
+
+ .BoxesContainer {
+	 display: flex;
+	 flex-flow: row wrap;
+	 justify-content: center;
+	 align-items: center;
+	 width: 702px;
+	 gap: 10px;
+ }
+
+ .BoxesCenterContainer {
+	 display: flex;
+	 flex-flow: row wrap;
+	 width: auto;
+	 gap: 10px;
+	 margin-bottom: 10px;
+ }
 </style>
 <meta property="og:title" content="RootPain.com: Blog" />
-<meta property="og:image" content="https://github.com/JuneSSai/RootPain.com/blob/main/images/logos/logodarkblue.png?raw=true" />
-<meta property="og:description" content="Soon." />
+<meta property="og:image" content="https://github.com/JuneSSai/RootPain.com/blob/main/images/logos/logored.png?raw=true" />
+<meta property="og:description" content="It just took me a few months." />
 <title>RootPain.com: Blog</title>
 <link rel="stylesheet" href="style.css">
 <link rel="icon" type="image/png" href="images/favicon.png">
 
-<script async src="js/logodarkblue.js"></script>
+<script async src="js/logodarkbluenocharacters.js"></script>
 <script async src="js/menudarkblue.js"></script>
 <script async src="js/ads.js"></script>
 </head>
@@ -71,9 +96,13 @@
 			<div class="handlebar"></div>
 		</div>
 
-		<div style="display:flex;height:auto;width:702px;flex-direction:column;">
-		<div style="display:flex;height:auto;width:636px;gap:36px;flex-flow:row wrap;align-self:center;margin-bottom:10px;">
-			<p style="margin:auto;font-size:600%;">SOON.</p>
+		<div style="display:flex;width:702px;height:auto;flex-direction:column;">
+		<div class="BoxesContainer">
+			<div class="BoxesCenterContainer">
+			
+				<a href="devlogmain.html"><div style="background-image:url('blog/images/devlogbutton.png');" class="button buttonbox"></div></a>
+			
+			</div>
 		</div>
 			<div class="handlebar" style="margin-top:auto;"></div>
 		</div>
@@ -81,9 +110,9 @@
 	</div>
 
 	<div class="rightmenu" style="background-image:url('images/sidemenus/sidemenusdarkbluebg.png');">
-		<div style="align-self:center;height:34px;width:125px;margin-top:10px;">
+		<div style="align-self:center;height:34px;width:125px;margin-top:10px;margin-bottom:20px;">
 			<p style="text-align:center;margin-top:0px;">Last Update:<br>
-			May 23, 2023</p></div>
+			December 15, 2023</p></div>
 			<div id="adscontainer" class="adscontainer"></div>
 	</div>
 
