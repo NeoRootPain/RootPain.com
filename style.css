@@ -179,6 +179,7 @@
 	 margin-right: auto;
 	 height: auto;
 	 width: 150px;
+	 gap: 10px;
 	 background-image: url('images/sidemenus/sidemenusgreenbg.png');
  }
 
@@ -189,6 +190,7 @@
 	 margin-left: auto;
 	 height: auto;
 	 width: 150px;
+	 gap: 10px;
 	 background-image: url('images/sidemenus/sidemenusgreenbg.png');
  }
 
@@ -223,7 +225,6 @@
 	 justify-content: top;
 	 width: 150px;
 	 height: auto;
-	 margin-top: 20px;
  }
 
  .socialsbar {
@@ -240,7 +241,7 @@
 	 justify-content: top;
 	 width: 150px;
 	 height: auto;
-	 margin-top: 20px;
+	 margin-bottom: 10px;
  }
 
  .handlebarside {
@@ -255,7 +256,7 @@
 	flex-direction: column;
 	gap: 10px;
 	margin-top: 10px;
-	margin-bottom:10px;
+	margin-bottom: 10px;
 	margin-left: auto;
 	margin-right: auto;
 	width:125px;
